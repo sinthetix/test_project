@@ -1,0 +1,6 @@
+sudo: false
+language: php
+php: 
+- hhvm
+install:
+- composer install --prefer-source --no-interaction 
